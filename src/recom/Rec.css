@@ -1,0 +1,183 @@
+.popular {
+    background-color: #F7F9FC;
+    padding: 40px 64px;
+}
+
+.popular__container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.popular__wrapper {
+    padding: 20px 0;
+}
+
+.popular__header {
+    border-bottom: 1px solid #E2E8F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.popular__title {
+    font-size: 1.25rem;
+    color: #1A202C;
+    font-weight: bold;
+}
+
+.popular__view-all {
+    color: #3563E9;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.popular__view-all:hover {
+    color: #2b4bdf;
+}
+
+/* Car grid styles */
+.popular__cars {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.popular__car-item {
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(25% - 32px);
+    max-width: calc(25% - 32px);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.popular__car-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.popular__car-header {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular__car-info {
+    text-align: left;
+}
+
+.popular__car-name {
+    font-size: 1.25rem;
+    color: #1A202C;
+    font-weight: bold;
+}
+
+.popular__car-type {
+    font-size: 0.875rem;
+    color: #90A3BF;
+}
+
+.popular__car-favorite {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.popular__car-favorite:hover {
+    opacity: 0.8;
+}
+
+.popular__car-image-wrapper {
+    margin-top: 16px;
+}
+
+.popular__car-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.popular__car-details {
+    margin-top: 16px;
+}
+
+.popular__car-gasoline,
+.popular__car-transmission,
+.popular__car-capacity {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.popular__car-gasoline img,
+.popular__car-transmission img,
+.popular__car-capacity img {
+    width: 18px;
+    height: 18px;
+}
+
+.popular__car-footer {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular__car-price {
+    font-size: 1.5rem;
+    color: #1A202C;
+    font-weight: bold;
+}
+
+.popular__car-price-day {
+    font-size: 1.125rem;
+    color: #90A3BF;
+}
+
+.popular__car-button {
+    background-color: #3563E9;
+    color: #FFFFFF;
+    border: none;
+    padding: 0 16px;
+    height: 44px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.popular__car-button:hover {
+    background-color: #2b4bdf;
+}
+
+.popular__show-more-button {
+    background-color: #3563E9;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.popular__show-more-button:hover {
+    background-color: #2b4bdf;
+}
+
+.popular__total-cars {
+    color: #90A3BF;
+    font-weight: 500;
+    font-size: 1.125rem;
+    position: absolute;
+    right: 0;
+}
